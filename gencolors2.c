@@ -44,7 +44,7 @@ int main(){
         fscanf(fp, "%i", &blue); 
         fscanf(fp, "%i", &trash); 
      
-     printf("%s = { %i, %i, %i};\n",
-               color, red, green, blue);
+     printf("%s[0] = %i; %s[1] = %i; %s[2] = %i;\n",
+               color, red, color, green, color, blue);
     }
 }

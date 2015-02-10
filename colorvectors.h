@@ -1,6 +1,8 @@
 #ifndef COLOR_VECTORS
 #define COLOR_VECTORS
 
+#include "headers.h"  // This picks up GLubyte type
+
 typedef GLubyte color_vector[3];
 
 
@@ -318,7 +320,8 @@ extern color_vector navajowhite2;
 extern color_vector navajowhite3;
 extern color_vector navajowhite4;
 extern color_vector eggshell;
-extern color_vector tan;
+// changed to avoid conflice with tan function
+extern color_vector tan0;
 extern color_vector brick;
 extern color_vector cadmiumyellow;
 extern color_vector antiquewhite;
@@ -463,7 +466,7 @@ extern color_vector black;
 extern color_vector gray99;
 extern color_vector gray98;
 extern color_vector gray97;
-extern color_vector whitesmoke;
+extern color_vector gray96;
 extern color_vector gray95;
 extern color_vector gray94;
 extern color_vector gray93;
@@ -518,7 +521,7 @@ extern color_vector gray45;
 extern color_vector gray44;
 extern color_vector gray43;
 extern color_vector gray42;
-extern color_vector dimgray;
+extern color_vector gray41;
 extern color_vector gray40;
 extern color_vector gray39;
 extern color_vector gray38;
