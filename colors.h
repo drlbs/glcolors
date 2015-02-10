@@ -1,4 +1,4 @@
-/* Named Color Triples for OpenGL 
+/* Named Color Triples for OpenGL - Structure Version 
  *    
  * Andrew J. Pounds, Ph.D.
  * Departments of Chemistry and Computer Science

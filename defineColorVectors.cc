@@ -1,3 +1,29 @@
+
+/* Named Color Triples for OpenGL - Vector Version 
+ *    
+ * Andrew J. Pounds, Ph.D.
+ * Departments of Chemistry and Computer Science
+ * Mercer University
+ * Spring 2015
+ *
+ * Defines 500 colors by name in a arrays so that
+ * the color triples can be referenced by name alone. 
+ *
+ * This function should be called ONCE somewhere in the code
+ * to define the vectors.  The colorvectors.h header file should
+ * be included in any file that wants to reference the color vectors.
+ *
+ * IMPORTANT: you have to use glColor3ubv, like this...
+ * 
+ * glColor3ubv( green );
+ *
+ * A list of colors can be found at:
+ *
+ * http://cloford.com/resources/colours/500col.htm
+ *
+ */
+
+
 #ifndef DEFINE_COLOR_VECTORS
 #define DEFINE_COLOR_VECTORS
 

@@ -1,23 +1,24 @@
-/* Named Color Triples for OpenGL 
+/* Named Color Triples for OpenGL - Structure Version 
  *     
  * Andrew J. Pounds, Ph.D.
  * Departments of Chemistry and Computer Science
  * Mercer University
  * Spring 2015
  *  
- * Defines 500 colors by name in a structure so that
- * the color triples can be referenced like
- * lime.red lime.green lime.blue                                        
+ * Defines 500 colors by name in a arrays so that
+ * the color triples can be referenced simply by name. 
  * 
  * This file should be compiled and linked with the rest of the
  * code.  This file should be called ONCE in the init function.
  * It declares the actual space for the structures in a global scope
  * and initializes their values.
+ 
  *
- * The names and colors of the colors are available at
+ * The names and "colors" of the colors are available at
  *
  * http://cloford.com/resources/colours/500col.htm
  *
+ * P
  */
 
 
